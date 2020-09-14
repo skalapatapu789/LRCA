@@ -11,7 +11,7 @@ namespace LRCA.classes
         public static string ConstLoginMsg = "";
         public static string ConstAppName = "LRCA";
         public static string ConstLoginURL = "https://mightystartups.com/default.aspx?home=active#login";
-        public static string ConstAppURL = Environment.Equals("development") ? "http://localhost:50223/" : "https://mightystartups.com/";
+        public static string ConstAppURL = Environment.Equals("development") ? "https://lrca20200812173447.azurewebsites.net/" : "https://mightystartups.com/";
        
         public static string ConstSMTP_PRIMARY = "smtp.1and1.com";
         public static string ConstSMTP_SECONDARY = "smtp.1and1.com";

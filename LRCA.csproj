@@ -199,7 +199,6 @@
     <Content Include="bin\System.Net.Http.Extensions.dll" />
     <Content Include="bin\System.Net.Http.Formatting.dll" />
     <Content Include="bin\System.Net.Http.Primitives.dll" />
-    <Content Include="BlankCertificate\BlankCertificate.htm" />
     <Content Include="CDetails.aspx" />
     <Content Include="ClassDetails.aspx" />
     <Content Include="CourseDetails.aspx" />
@@ -5183,6 +5182,7 @@
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="site.webmanifest" />
+    <None Include="Properties\PublishProfiles\LRCA20200812173447 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -5191,6 +5191,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BlankCertificate\" />
     <Folder Include="CSSBackEnd\img\demo\" />
     <Folder Include="CSSBackEnd\img\dropzone\" />
     <Folder Include="CSSBackEnd\img\flags\" />
